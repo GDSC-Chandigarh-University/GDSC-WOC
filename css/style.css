@@ -1,0 +1,126 @@
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*Global Decalarations*/
+
+		html{
+			background-color: #1F2124;
+			color: #FFFFFF;
+		}
+
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			font-family: 'Open Sans', sans-serif;
+			text-decoration: none;
+		}
+
+		ul{
+			list-style-position: inside;
+		}
+
+/*Proposal Guidelines section*/
+
+		.section-heading{
+			margin: 72px;
+		}
+
+		.section-heading h2{
+			font-size: 36px;
+		}
+
+		.section-heading p{
+			font-size: 18px;
+		}
+
+		.box{
+			display: flex;
+			padding-left: 72px;
+			
+		}
+
+	/*Left Container*/
+
+		.box-1{
+			
+			width: 400px;
+			/*height: 480px;*/
+			background-color: #F9BC2D;
+			border-radius: 12px;
+			padding: 40px 72px 40px 40px;
+			color: #000000;
+
+		}
+
+		.box-1 h2{
+			font-size: 48px;
+			margin-bottom: 20px;
+		}
+
+		.box-1 p{
+			font-size: 24px;
+			margin-right: 38px;
+			margin-bottom: 15px;
+		}
+		
+	/*Right container*/
+
+		.box-2{
+
+			margin-left: 52px;
+			width: 783px;
+			font-size: 24px;
+		}
+
+		.box-2 div{
+			margin-bottom: 26px;
+		}
+
+		.box-2 .list{
+			margin-bottom: 31px;
+		}
+
+		.box-2 .small-para{
+			font-size: 18px;
+		}
+
+/*Footer Starts here*/
+
+		.upper-footer{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.upper-footer div{
+			margin: 72px;
+		}
+
+		.lower-footer{
+			margin: 0 72px 50px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.horizontal-list{
+			list-style: none;
+
+		}
+		.horizontal-list li{
+			display: inline-block;
+			margin-right: 40px;
+		}
+
+		.horizontal-list li a{
+			color: #A4A4A4;
+			font-size: 18px;
+		}
+
+		.social-handles a img{
+			margin-right: 33px;
+		}
+		
+		.social-handles a img.last-icon{
+			margin-right: 0;
+		}
