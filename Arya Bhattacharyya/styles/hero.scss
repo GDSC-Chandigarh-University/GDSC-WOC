@@ -20,6 +20,7 @@ body {
         left: 80px;
         top: 105px;
         font-size:113px;
+        font-weight: 700;
     }
 
     #here {
@@ -46,26 +47,28 @@ body {
     width: 625px;
     height: 256px;
     border-radius: 12px;
+    margin: 10px;
 }
 
 .container {
-    margin-bottom: 855px;
+    margin-bottom: 575px;
+}
 
-    a {
-        text-decoration: none;
-        color: #000000;
-    }
-
-    a:hover {
-        opacity: 70%;
-    }
+#know-how-link {
+    text-decoration: none;
+    color: #000000;
 }
 
 #know-how {
-    left: 80px;
+    position: relative;
+    left: -50px;
     top: 527px;
     background: var(--secondary-color);
     padding-top: 10px;
+}
+
+#know-how:hover {
+    opacity: 70%;
 }
 
 #text-box > span {
@@ -86,13 +89,17 @@ body {
 }
 
 #youtube-card {
-    position: absolute;
+    position: relative;
     width: 625px;
     height: 256px;
-    left: 735px;
-    top: 527px;
+    left: -25px;
+    top: 537px;
     border-radius: 12px;
     background-image: url('../images/vid.png');
+
+    a:hover {
+        opacity: 70%;
+    }
 }
 
 #youtube-card img {
