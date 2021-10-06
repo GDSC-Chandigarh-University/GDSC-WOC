@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f2124;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*AboutUS*/
+.aboutus {
+  margin: 2rem 5rem;
+}
+
+/*AboutUS Heading*/
+
+.aboutus_heading {
+  color: #fff;
+  margin-bottom: 3.5rem;
+  text-align: center; /*replace this with "text-align: left;" if don't want heading in center*/
+}
+
+.aboutus_heading > h3 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.aboutus_heading > p {
+  font-size: 18px;
+  margin-top: 0.4rem;
+}
+
+/* AboutUS content */
+
+/*--info card*/
+.aboutus_card_content {
+  background: #fdd663;
+  padding: 3rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutus_card_content > h3 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.aboutus_card_content > p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0.8rem;
+  line-height: 2.3rem;
+}
+
+/*--image cards*/
+.background_image {
+  background: none;
+  padding: 0;
+}
+
+.background_image > img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.grid {
+  display: grid;
+  gap: 3rem;
+}
+
+/*AboutUS Responsive*/
+
+@media screen and (min-width: 768px) {
+  .aboutus_heading {
+    text-align: left;
+  }
+
+  .grid {
+    gap: 2rem;
+  }
+
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .grid--2x1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .order {
+    order: 1;
+  }
+}

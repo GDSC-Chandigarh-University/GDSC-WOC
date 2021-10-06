@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f2124;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*NavBar*/
+.navbar {
+  padding: 2rem;
+}
+
+/*Logo*/
+
+.logo {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.logo_name {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.logo_name > h2:nth-child(odd) {
+  color: #4285f4;
+}
+
+/*NavBar Menu*/
+
+.navbar_menu {
+  list-style: none;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.navbar_menu > li {
+  line-height: 3.5rem;
+}
+
+.navbar_menu > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*Apply Now*/
+.navbar_apply {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar_apply > li {
+  margin-top: 1rem;
+}
+
+.navbar_apply > li > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    justify-content: flex-start;
+  }
+
+  .navbar_menu {
+    display: flex;
+    margin-top: 2px;
+    gap: 2.5rem;
+  }
+
+  .navbar_apply {
+    text-align: unset;
+    margin-top: 2px;
+  }
+
+  .navbar_left {
+    display: flex;
+    gap: 2.5rem;
+  }
+
+  .navbar {
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
+}
