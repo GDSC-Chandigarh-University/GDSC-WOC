@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #1F2124;
+    --secondary-color: #FDD663;
+    --text-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+#woc-title-box {
+    border: 1px solid white;
+
+    #woc-title {
+        position: absolute;
+        width: 850px;
+        height: 153px;
+        left: 80px;
+        top: 105px;
+        font-size:113px;
+    }
+
+    #here {
+        position: absolute;
+        width: 121px;
+        height: 46px;
+        left: 945px;
+        top: 186px;
+        font-size: 33px;
+    }
+
+    #description-box {
+        position: absolute;
+        width: 785px;
+        height: 138px;
+        left: 81px;
+        top: 265px;
+        font-size: 33px;
+    }
+}
+
+.hero-card {
+    position: absolute;
+    width: 625px;
+    height: 256px;
+    border-radius: 12px;
+}
+
+.container {
+    margin-bottom: 855px;
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    a:hover {
+        opacity: 70%;
+    }
+}
+
+#know-how {
+    left: 80px;
+    top: 527px;
+    background: var(--secondary-color);
+    padding-top: 10px;
+}
+
+#text-box > span {
+    width: 423px;
+    height: 61px;
+    margin-left: 40px;
+    font-size: 48px;
+}
+
+#text-box p {
+    width: 485px;
+    height: 93px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 24px;
+
+}
+
+#youtube-card {
+    position: absolute;
+    width: 625px;
+    height: 256px;
+    left: 735px;
+    top: 527px;
+    border-radius: 12px;
+    background-image: url('../images/vid.png');
+}
+
+#youtube-card img {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#vid-title {
+    width: 350px;
+    position: absolute;
+    height: 20px;
+    left: 70px;
+    top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#play-button {
+    position: absolute;
+    left : 245px;
+    top: 95px;
+}
+
+#play {
+    position: absolute;
+    left : 37px;
+    top: 14px;
+}
+
+#hero-line {
+    width: 1280px;
+    height: 0px;
+    margin-left: 80px;
+    border: 1.5px solid #E2E2E2;
+}
