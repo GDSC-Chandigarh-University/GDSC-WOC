@@ -136,3 +136,92 @@ body {
     margin-left: 80px;
     border: 1.5px solid #E2E2E2;
 }
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+    #woc-title-box {
+        font-size: 60%;
+        width: 70%;
+    }
+
+    #here {
+        font-size: 60%;
+        float: right;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1099px) {
+    #woc-title-box {
+        width: 50%;
+    }
+
+    #here {
+        font-size: 60%;
+        float: right;
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 20px) and (max-width: 799px) {
+    #woc-title-box {
+        width: 80%;
+
+        #woc-title {
+            font-size: 40px;
+            margin-left: -50px;
+        }
+
+        #here {
+            visibility: hidden;
+        }
+
+        #description-box {
+            width: 70%;
+            font-size: 15px;
+        }
+    }
+
+    #know-how {
+        width: 80%;
+        margin-left: 75px;
+
+        div {
+            span {
+                font-size: 20px;
+            }
+
+            p {
+                text-align: center;
+                margin-left: 60px;
+                font-size: 15px;
+                width: 50%;
+            }
+        }
+    }
+
+    #youtube-card {
+        width: 75%;
+        margin-left: 60px;
+
+        img {
+            width: 10%;
+        }
+
+        div {
+            margin-top: -8px;
+            margin-left: -15px;
+
+            span {
+                font-size: 10px;
+            }
+        }
+
+        a div img {
+            width: 10%;
+        }
+    }
+
+    
+    #hero-line {
+        visibility: hidden;
+    }
+}

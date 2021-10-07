@@ -135,4 +135,76 @@ body {
   margin-left: 80px;
   border: 1.5px solid #E2E2E2;
 }
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+  #woc-title-box {
+    font-size: 60%;
+    width: 70%;
+  }
+  #here {
+    font-size: 60%;
+    float: right;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1099px) {
+  #woc-title-box {
+    width: 50%;
+  }
+  #here {
+    font-size: 60%;
+    float: right;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 20px) and (max-width: 799px) {
+  #woc-title-box {
+    width: 80%;
+  }
+  #woc-title-box #woc-title {
+    font-size: 40px;
+    margin-left: -50px;
+  }
+  #woc-title-box #here {
+    visibility: hidden;
+  }
+  #woc-title-box #description-box {
+    width: 70%;
+    font-size: 15px;
+  }
+  #know-how {
+    width: 80%;
+    margin-left: 75px;
+  }
+  #know-how div span {
+    font-size: 20px;
+  }
+  #know-how div p {
+    text-align: center;
+    margin-left: 60px;
+    font-size: 15px;
+    width: 50%;
+  }
+  #youtube-card {
+    width: 75%;
+    margin-left: 60px;
+  }
+  #youtube-card img {
+    width: 10%;
+  }
+  #youtube-card div {
+    margin-top: -8px;
+    margin-left: -15px;
+  }
+  #youtube-card div span {
+    font-size: 10px;
+  }
+  #youtube-card a div img {
+    width: 10%;
+  }
+  #hero-line {
+    visibility: hidden;
+  }
+}
 /*# sourceMappingURL=hero.css.map */
