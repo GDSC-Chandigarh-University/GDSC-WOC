@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+    
+
+.sponser-parent{
+    display: inline-block;
+    
+}
+.heading{
+    margin-left: 180%;
+    width: 10rem;
+    font-family: "open sans",sans-serif;
+}
+.subheading{
+    margin-left: 180%;
+    /* line-height:0; */
+    font-family: "open sans",sans-serif;
+    width: 100%;
+}
+p{
+    font-family: "open sans",sans-serif;
+    font-weight: bold;
+}
+
+/* CHANDIGARH UNIVERSITY */
+
+.cu-img{
+position: absolute;
+width: 120px;
+height: 120px;
+margin-top: 10%;
+margin-left:5%;
+left: 12%;
+bottom: 69%;
+border-radius:50%;
+background: #F8F9FA;
+}
+.cu-para{
+    position: absolute;
+    margin-left:6%;
+    left: 12%;
+    bottom: 60%;
+    width: 5%;
+    text-align: center;
+}
+
+/* MICROSOFT */
+
+.ms-img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 10%;
+    margin-left:14%;
+    left: 12%;
+    bottom: 69%;
+    border-radius:50%;
+    background: #F8F9FA;
+    }
+    .ms-para{
+        position: absolute;
+        margin-left:18rem;
+        left: 12%;
+        bottom: 62%;
+        width: 5%;
+        text-align: center;
+    }
+
+        
+    /* GOOGLE */
+
+    .g-img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        margin-top: 10%;
+        margin-left:23%;
+        left: 12%;
+        bottom: 69%;
+        border-radius:50%;
+        background: #F8F9FA;
+        }
+        .g-para{
+            position: absolute;
+            margin-left:29rem;
+            left: 12%;
+            bottom: 62%;
+            width: 5%;
+            text-align: center;
+        }
+
+        /* INTEL */
+
+        .intel-img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        margin-top: 10%;
+        margin-left:31.4%;
+        left: 12%;
+        bottom: 69%;
+        border-radius:50%;
+        background: #F8F9FA;
+        }
+
+            .intel-para{
+            position: absolute;
+            margin-left:39rem;
+            left: 12%;
+            bottom: 62%;
+            width: 5%;
+            text-align: center;
+        }
+
+/* IEE */
+
+.iee-img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 10%;
+    margin-left:40%;
+    left: 12%;
+    bottom: 69%;
+    border-radius:50%;
+    background: #F8F9FA;
+    }
+    .iee-para{
+        position: absolute;
+        margin-left:49rem;
+        left: 12%;
+        bottom: 62%;
+        width: 5%;
+        text-align: center;
+    }
+    
+
+ /* DATACAMP */
+
+    .dc-img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        margin-top: 10%;
+        margin-left:49%;
+        left: 12%;
+        bottom: 69%;
+        border-radius:50%;
+        background: #F8F9FA;
+        }
+        .dc-para{
+            position: absolute;
+            margin-left:60rem;
+            left: 12%;
+            bottom: 62%;
+            width: 5%;
+            text-align: center;
+        }
+
+/* E-CELL IIT BOMBAY */
+
+.ecell-img{
+    position: absolute;
+    width: 120px;
+    height:120px;
+    margin-top: 10%;
+    margin-left:58.5%;
+    left: 12%;
+    bottom: 69%;
+    border-radius:50%;
+    background: #F8F9FA;
+    }
+    .ecell-para{
+        position: absolute;
+        margin-left:71.4rem;
+        left: 12%;
+        bottom: 60%;
+        width: 5%;
+        text-align: center;
+    }
