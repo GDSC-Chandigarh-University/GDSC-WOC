@@ -11,19 +11,18 @@ body {
 
 /*AboutUS*/
 .aboutus {
-  margin: 2rem 5rem;
+  margin: 2rem 3rem;
 }
 
 /*AboutUS Heading*/
-
 .aboutus_heading {
   color: #fff;
-  margin-bottom: 3.5rem;
+  margin-bottom: 1rem;
   text-align: center; /*replace this with "text-align: left;" if don't want heading in center*/
 }
 
 .aboutus_heading > h3 {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 500;
 }
 
@@ -37,7 +36,7 @@ body {
 /*--info card*/
 .aboutus_card_content {
   background: #fdd663;
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -45,21 +44,23 @@ body {
 }
 
 .aboutus_card_content > h3 {
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 500;
 }
 
 .aboutus_card_content > p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
-  margin-top: 0.8rem;
-  line-height: 2.3rem;
+  margin-top: 0.4rem;
+  line-height: 2rem;
 }
 
 /*--image cards*/
 .background_image {
   background: none;
   padding: 0;
+  object-fit: cover;
+  height: 281px;
 }
 
 .background_image > img {
@@ -69,14 +70,26 @@ body {
 
 .grid {
   display: grid;
-  gap: 3rem;
 }
 
 /*AboutUS Responsive*/
 
 @media screen and (min-width: 768px) {
+  .aboutus {
+    margin: 2rem 5rem;
+  }
+
   .aboutus_heading {
     text-align: left;
+    margin-bottom: 3.5rem;
+  }
+
+  .aboutus_heading > h3 {
+    font-size: 36px;
+  }
+
+  .aboutus_card_content {
+    height: 236.95px;
   }
 
   .grid {
@@ -92,7 +105,18 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
   }
+
   .order {
     order: 1;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .aboutus_card_content > h3 {
+    font-size: 48px;
+  }
+
+  .aboutus_card_content > p {
+    font-size: 24px;
   }
 }
