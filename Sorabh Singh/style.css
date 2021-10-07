@@ -8,7 +8,7 @@ body{
     flex-direction: column;
     margin: 33px;
     width: 300px;
-    height: 80px;
+    height: 92px;
 
 }
 
@@ -24,35 +24,40 @@ body{
     margin-left: -76px;
     display: flex;
     justify-content: space-around;
+    margin-left: -3px;
 }
 
 .bx-1{
     border: 2px solid rgba(255, 255, 255, 1);
-    width: 278px;
-    padding: 13px;
+    width: 393px;
+    padding: 15px;
     border-radius: 10px;
-    height: 148px;
+    height: 194px;
+    padding-left: 22px;
 }
 
 .up-bx{
-    font-size: 34px;
+    font-size: 42px;
     margin-bottom: 8px;
     font-weight: 700;
+    margin: 14px 0 10px 0;
 }
 .mid-bx{
     margin-bottom: 27px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .low-bx{
-    width: 230px;
-    margin-top: 40px;
+    width: 235px;
+    margin-top: 42px;
     color: #E2E2E2;
+    font-size: 19px;
 }
 
 .btm{
     margin: 31px 0 0 33px;
     color: #E2E2E2;
+    width: 300px;
 }
 
 .btm a{
