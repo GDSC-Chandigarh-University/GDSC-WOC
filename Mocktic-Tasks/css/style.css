@@ -63,6 +63,11 @@
 			margin-bottom: 15px;
 		}
 		
+		span.greater-than{
+			/*text-align: center;*/
+			position: relative;
+			top: 1.5px;
+		}
 	/*Right container*/
 
 		.box-2{
