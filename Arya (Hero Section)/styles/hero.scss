@@ -1,0 +1,227 @@
+:root {
+    --primary-color: #1F2124;
+    --secondary-color: #FDD663;
+    --text-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+#woc-title-box {
+    width: 1060px;
+
+    #woc-title {
+        position: relative;
+        width: 850px;
+        height: 153px;
+        left: 80px;
+        top: 105px;
+        font-size:113px;
+        font-weight: 700;
+    }
+
+    #here {
+        position: relative;
+        float: right;
+        width: 121px;
+        height: 46px;
+        top: 186px;
+        font-size: 33px;
+    }
+
+    #description-box {
+        position: relative;
+        width: 785px;
+        height: 138px;
+        left: 81px;
+        top: 105px;
+        font-size: 33px;
+    }
+}
+
+.hero-card {
+    width: 625px;
+    height: 256px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.container {
+    margin-bottom: 250px;
+}
+
+#know-how-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+#know-how {
+    position: relative;
+    left: -50px;
+    top: 192px;
+    background: var(--secondary-color);
+    padding-top: 10px;
+}
+
+#know-how:hover {
+    opacity: 70%;
+}
+
+#text-box > span {
+    width: 423px;
+    height: 61px;
+    margin-left: 40px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#text-box p {
+    width: 485px;
+    height: 93px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 24px;
+
+}
+
+#youtube-card {
+    position: relative;
+    width: 625px;
+    height: 256px;
+    left: -25px;
+    top: 200px;
+    border-radius: 12px;
+    background-image: url('../images/vid.png');
+
+    a:hover {
+        opacity: 70%;
+    }
+}
+
+#youtube-card img {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#vid-title {
+    width: 350px;
+    position: absolute;
+    height: 20px;
+    left: 70px;
+    top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#play-button {
+    position: absolute;
+    left : 245px;
+    top: 95px;
+}
+
+#play {
+    position: absolute;
+    left : 37px;
+    top: 14px;
+}
+
+#hero-line {
+    width: 1280px;
+    height: 0px;
+    margin-left: 80px;
+    border: 1.5px solid #E2E2E2;
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+    #woc-title-box {
+        font-size: 60%;
+        width: 70%;
+    }
+
+    #here {
+        font-size: 60%;
+        float: right;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1099px) {
+    #woc-title-box {
+        width: 50%;
+    }
+
+    #here {
+        font-size: 60%;
+        float: right;
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 20px) and (max-width: 799px) {
+    #woc-title-box {
+        width: 80%;
+
+        #woc-title {
+            font-size: 40px;
+            margin-left: -50px;
+        }
+
+        #here {
+            visibility: hidden;
+        }
+
+        #description-box {
+            width: 70%;
+            font-size: 15px;
+        }
+    }
+
+    #know-how {
+        width: 80%;
+        margin-left: 75px;
+
+        div {
+            span {
+                font-size: 20px;
+            }
+
+            p {
+                text-align: center;
+                margin-left: 60px;
+                font-size: 15px;
+                width: 50%;
+            }
+        }
+    }
+
+    #youtube-card {
+        width: 75%;
+        margin-left: 60px;
+
+        img {
+            width: 10%;
+        }
+
+        div {
+            margin-top: -8px;
+            margin-left: -15px;
+
+            span {
+                font-size: 10px;
+            }
+        }
+
+        a div img {
+            width: 10%;
+        }
+    }
+
+    
+    #hero-line {
+        visibility: hidden;
+    }
+}

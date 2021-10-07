@@ -11,61 +11,63 @@ body {
 }
 
 #woc-title-box {
-  border: 1px solid white;
+  width: 1060px;
 }
 
 #woc-title-box #woc-title {
-  position: absolute;
+  position: relative;
   width: 850px;
   height: 153px;
   left: 80px;
   top: 105px;
   font-size: 113px;
+  font-weight: 700;
 }
 
 #woc-title-box #here {
-  position: absolute;
+  position: relative;
+  float: right;
   width: 121px;
   height: 46px;
-  left: 945px;
   top: 186px;
   font-size: 33px;
 }
 
 #woc-title-box #description-box {
-  position: absolute;
+  position: relative;
   width: 785px;
   height: 138px;
   left: 81px;
-  top: 265px;
+  top: 105px;
   font-size: 33px;
 }
 
 .hero-card {
-  position: absolute;
   width: 625px;
   height: 256px;
   border-radius: 12px;
+  margin: 10px;
 }
 
 .container {
-  margin-bottom: 855px;
+  margin-bottom: 250px;
 }
 
-.container a {
+#know-how-link {
   text-decoration: none;
   color: #000000;
 }
 
-.container a:hover {
-  opacity: 70%;
-}
-
 #know-how {
-  left: 80px;
-  top: 527px;
+  position: relative;
+  left: -50px;
+  top: 192px;
   background: var(--secondary-color);
   padding-top: 10px;
+}
+
+#know-how:hover {
+  opacity: 70%;
 }
 
 #text-box > span {
@@ -85,13 +87,17 @@ body {
 }
 
 #youtube-card {
-  position: absolute;
+  position: relative;
   width: 625px;
   height: 256px;
-  left: 735px;
-  top: 527px;
+  left: -25px;
+  top: 200px;
   border-radius: 12px;
   background-image: url("../images/vid.png");
+}
+
+#youtube-card a:hover {
+  opacity: 70%;
 }
 
 #youtube-card img {
@@ -128,5 +134,77 @@ body {
   height: 0px;
   margin-left: 80px;
   border: 1.5px solid #E2E2E2;
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+  #woc-title-box {
+    font-size: 60%;
+    width: 70%;
+  }
+  #here {
+    font-size: 60%;
+    float: right;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1099px) {
+  #woc-title-box {
+    width: 50%;
+  }
+  #here {
+    font-size: 60%;
+    float: right;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 20px) and (max-width: 799px) {
+  #woc-title-box {
+    width: 80%;
+  }
+  #woc-title-box #woc-title {
+    font-size: 40px;
+    margin-left: -50px;
+  }
+  #woc-title-box #here {
+    visibility: hidden;
+  }
+  #woc-title-box #description-box {
+    width: 70%;
+    font-size: 15px;
+  }
+  #know-how {
+    width: 80%;
+    margin-left: 75px;
+  }
+  #know-how div span {
+    font-size: 20px;
+  }
+  #know-how div p {
+    text-align: center;
+    margin-left: 60px;
+    font-size: 15px;
+    width: 50%;
+  }
+  #youtube-card {
+    width: 75%;
+    margin-left: 60px;
+  }
+  #youtube-card img {
+    width: 10%;
+  }
+  #youtube-card div {
+    margin-top: -8px;
+    margin-left: -15px;
+  }
+  #youtube-card div span {
+    font-size: 10px;
+  }
+  #youtube-card a div img {
+    width: 10%;
+  }
+  #hero-line {
+    visibility: hidden;
+  }
 }
 /*# sourceMappingURL=hero.css.map */
