@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+p{
+    width: 6rem;
+    font-weight: bold;
+}
+body{
+    font-family: "open sans",sans-serif;
+}
+
+.media_content{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+}
+.mob_view{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    gap:1rem;
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+
+.media > img {
+    width: 5rem;
+    
+}
+
+@media screen and (min-width:768px){
+
+.mob_view{
+    display: flex;
+    gap: 3rem;
+}
+
+.media_content{
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.media > img {
+    width: 10rem;
+}
+
+.sponser{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.sponser-header{
+    align-self: flex-start;
+    margin:2rem auto;
+    margin-left: 16rem;
+}
+
+}
