@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
+    
 
 .sponser-parent{
     display: inline-block;
     
 }
 .heading{
-    margin-left: 4rem;
+    margin-left: 180%;
     width: 10rem;
     font-family: "open sans",sans-serif;
 }
 .subheading{
-    margin-left: 4rem;
-    line-height:0;
+    margin-left: 180%;
+    /* line-height:0; */
     font-family: "open sans",sans-serif;
+    width: 100%;
 }
 p{
     font-family: "open sans",sans-serif;
@@ -26,17 +28,19 @@ p{
 position: absolute;
 width: 120px;
 height: 120px;
-margin-top: 3rem;
-margin-left:5rem;
-bottom: 42rem;
+margin-top: 10%;
+margin-left:5%;
+left: 12%;
+bottom: 69%;
 border-radius:50%;
 background: #F8F9FA;
 }
 .cu-para{
     position: absolute;
-    margin-left:6rem;
-    bottom: 37rem;
-    width: 5rem;
+    margin-left:6%;
+    left: 12%;
+    bottom: 60%;
+    width: 5%;
     text-align: center;
 }
 
@@ -46,17 +50,19 @@ background: #F8F9FA;
     position: absolute;
     width: 120px;
     height: 120px;
-    margin-top: 3rem;
-    margin-left:17rem;
-    bottom: 42rem;
+    margin-top: 10%;
+    margin-left:14%;
+    left: 12%;
+    bottom: 69%;
     border-radius:50%;
     background: #F8F9FA;
     }
     .ms-para{
         position: absolute;
         margin-left:18rem;
-        bottom: 38rem;
-        width: 5rem;
+        left: 12%;
+        bottom: 62%;
+        width: 5%;
         text-align: center;
     }
 
@@ -67,17 +73,19 @@ background: #F8F9FA;
         position: absolute;
         width: 120px;
         height: 120px;
-        margin-top: 3rem;
-        margin-left:28rem;
-        bottom: 42rem;
+        margin-top: 10%;
+        margin-left:23%;
+        left: 12%;
+        bottom: 69%;
         border-radius:50%;
         background: #F8F9FA;
         }
         .g-para{
             position: absolute;
             margin-left:29rem;
-            bottom: 38rem;
-            width: 5rem;
+            left: 12%;
+            bottom: 62%;
+            width: 5%;
             text-align: center;
         }
 
@@ -87,9 +95,10 @@ background: #F8F9FA;
         position: absolute;
         width: 120px;
         height: 120px;
-        margin-top: 3rem;
-        margin-left:38rem;
-        bottom: 42rem;
+        margin-top: 10%;
+        margin-left:31.4%;
+        left: 12%;
+        bottom: 69%;
         border-radius:50%;
         background: #F8F9FA;
         }
@@ -97,8 +106,9 @@ background: #F8F9FA;
             .intel-para{
             position: absolute;
             margin-left:39rem;
-            bottom: 38rem;
-            width: 5rem;
+            left: 12%;
+            bottom: 62%;
+            width: 5%;
             text-align: center;
         }
 
@@ -108,17 +118,19 @@ background: #F8F9FA;
     position: absolute;
     width: 120px;
     height: 120px;
-    margin-top: 3rem;
-    margin-left:48rem;
-    bottom: 42rem;
+    margin-top: 10%;
+    margin-left:40%;
+    left: 12%;
+    bottom: 69%;
     border-radius:50%;
     background: #F8F9FA;
     }
     .iee-para{
         position: absolute;
         margin-left:49rem;
-        bottom: 38rem;
-        width: 5rem;
+        left: 12%;
+        bottom: 62%;
+        width: 5%;
         text-align: center;
     }
     
@@ -129,17 +141,19 @@ background: #F8F9FA;
         position: absolute;
         width: 120px;
         height: 120px;
-        margin-top: 3rem;
-        margin-left:59rem;
-        bottom: 42rem;
+        margin-top: 10%;
+        margin-left:49%;
+        left: 12%;
+        bottom: 69%;
         border-radius:50%;
         background: #F8F9FA;
         }
         .dc-para{
             position: absolute;
             margin-left:60rem;
-            bottom: 38rem;
-            width: 5rem;
+            left: 12%;
+            bottom: 62%;
+            width: 5%;
             text-align: center;
         }
 
@@ -149,16 +163,18 @@ background: #F8F9FA;
     position: absolute;
     width: 120px;
     height:120px;
-    margin-top: 3rem;
-    margin-left:70rem;
-    bottom: 42rem;
+    margin-top: 10%;
+    margin-left:58.5%;
+    left: 12%;
+    bottom: 69%;
     border-radius:50%;
     background: #F8F9FA;
     }
     .ecell-para{
         position: absolute;
         margin-left:71.4rem;
-        bottom: 37rem;
-        width: 5rem;
+        left: 12%;
+        bottom: 60%;
+        width: 5%;
         text-align: center;
     }
